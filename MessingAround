@@ -7,6 +7,8 @@ def run(word, n):
         i += 1
     return word
 
+
+
 n = int(input("n: "))
 
 print(f"{run('wow', n)}") 
