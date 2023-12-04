@@ -1,0 +1,10 @@
+print("Hello, World")
+
+def run(word, n):
+    i = 0
+    for i in range(n):
+        word = "   " + word 
+        i += 1
+    return word
+
+print(f"{run('wow', 10)}") 
